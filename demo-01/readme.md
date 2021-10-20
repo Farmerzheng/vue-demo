@@ -11,7 +11,11 @@ npm install cnpm -g --registry=https://registry.npm.taobao.org
 
 https://cli.vuejs.org/zh/guide/
 
-### VsCode 中 vue代码格式化 
+创建项目
+vue create hello-world
+
+启动项目
+npm run serve
 
 ```
 
