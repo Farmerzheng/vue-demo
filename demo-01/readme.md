@@ -27,5 +27,21 @@ VS_Code中安装好插件 : Vetur
 编辑器中 试试 “Shift + Alt + F”
 ```
 
+### element UI
+
+```
+element UI 暂时不支持 @vue/cli 4.0
+
+因此需要安装 @vue/cli 3.0 的版本
+
+npm install -g @vue/cli@3.1.1
+
+1、安装elementUI
+npm i element-ui -S
+2、
+```
+
+
+
 
 
