@@ -2,8 +2,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 // 引入element-UI组件
-import { Button, Select } from 'element-ui';
-
+import { Button, Select } from 'element-ui'
 
 const app = createApp(App)
 
