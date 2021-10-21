@@ -11,7 +11,11 @@
   </div> -->
   <div>
     <!-- 头部区域 -->
-    <header class="header">后台管理系统</header>
+    <el-row>
+       <el-col :span="24"><div class="grid-content bg-purple-dark">后台管理系统</div></el-col>
+    </el-row>
+    
+    <!-- <header class="header"></header> -->
     <!-- 中间主体区域 -->
     <div class="main">
       <!-- 左侧菜单栏 -->

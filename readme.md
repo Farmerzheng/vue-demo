@@ -43,9 +43,10 @@ npm i element-ui -S
 2、
 ```
 
-### vue-router
+vue.config.js
 
 ```
+vue cli3.0项目中需要配置其他参数时，需要新建文件'vue.config.js'，与package.json在同一级目录下。
 ```
 
 
