@@ -1,17 +1,12 @@
 <template>
   <div class="">
-    <a href="">Users Page</a>
-    <vuex-demo></vuex-demo>
+    <a href="">UserInfo Page</a>
   </div>
 </template>
 
 <script>
-import VuexDemo from '../components/VuexDemo.vue'
 export default {
-  name: '',
-  components: {
-    VuexDemo
-  }
+  name: ''
 }
 </script>
 
