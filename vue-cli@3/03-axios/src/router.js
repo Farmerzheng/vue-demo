@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Users from './views/Users.vue'
+// import Users from './views/Users.vue'
 
 Vue.use(Router)
 
@@ -9,7 +9,7 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: Users
+      redirect: '/rights'
     },
     {
       path: '/users',

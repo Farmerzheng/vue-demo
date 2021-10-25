@@ -5,8 +5,26 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
-  name: ''
+  name: '',
+  mounted () {
+    let params = {
+      cityid: '101120101',
+      city: '济南',
+      province: '山东',
+      ip: '39.71.187.65'
+    }
+
+    axios
+      .get('https://weather.api.bdymkt.com/day', { params })
+      .then((res) => {
+        console.log(res)
+      })
+      .catch((err) => {
+        console.log(err)
+      })
+  }
 }
 </script>
 

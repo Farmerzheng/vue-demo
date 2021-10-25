@@ -52,6 +52,8 @@ Vue.use(less)
 
 Vue.config.productionTip = false
 
+console.log(process.env.VUE_APP_URL)
+
 new Vue({
   router,
   store,
