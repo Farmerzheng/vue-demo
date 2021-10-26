@@ -5,25 +5,35 @@
 </template>
 
 <script>
-import axios from 'axios'
+import { article } from '../request/index'
+// import axios from 'axios'
+// axios.defaults.baseURL = '/api'
 export default {
   name: '',
   mounted () {
-    let params = {
-      cityid: '101120101',
-      city: '济南',
-      province: '山东',
-      ip: '39.71.187.65'
+    let param = {
+      id: 186016,
+      limit: 1
     }
-
-    axios
-      .get('https://weather.api.bdymkt.com/day', { params })
+    // https://www.csdn.net/api/articles?type=more&category=home&shown_offset=1524276761019196&first_view=false
+    // http://iwenwiki.com/api/blueberrypai/getBlueBerryJamInfo.php
+    // axios
+    //   .get('http://music.eleuu.com/comment/music', { params: param })
+    //   .then((res) => {
+    //     console.log(res)
+    //   })
+    //   .catch((err) => {
+    //     console.log(err)
+    //   })
+    console.log(article, article.articleList(param))
+    article
+      .articleList(param)
       .then((res) => {
         console.log(res)
       })
-      .catch((err) => {
-        console.log(err)
-      })
+    //   .catch((err) => {
+    //     console.log(err)
+    //   })
   }
 }
 </script>
